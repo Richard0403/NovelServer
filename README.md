@@ -1,7 +1,7 @@
 # NovelServer
 ### 一个免费的小说服务器， 基于spring boot， 个人业余所做
 
-客户端目前只做了Android端， 地址[悠然读书]:http://reader.ifinder.cc
+客户端目前只做了Android端，目前仍在线上运行 地址[悠然读书]:http://reader.ifinder.cc
 
 **至于书籍的数据，我这里有很多，差不多有8G的内容（可以导出sql文件）， 如果你需要， 请联系我 QQ985507966**
 
