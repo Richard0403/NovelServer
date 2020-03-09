@@ -1,7 +1,10 @@
 # NovelServer
 ### 一个免费的小说服务器， 基于spring boot， 个人业余所做
 
-客户端目前只做了Android端， 地址[简书]:https://www.jianshu.com "创作你的创作"
+客户端目前只做了Android端， 地址[悠然读书]:http://reader.ifinder.cc
+
+**至于书籍的数据，我这里有很多，差不多有8G的内容（可以导出sql文件）， 如果你需要， 请联系我 QQ985507966**
+
 
 ## 功能
   1. 小说阅读
@@ -33,3 +36,7 @@ spring.datasource.url = jdbc:mysql://xxx.cn:3306/DataBaseName?autoReconnect=true
 spring.datasource.username = /** 数据库账号 **/
 spring.datasource.password = /** 数据库密码 **/
 ```
+
+正常运行后，会自动自动新建数据表， 但是user_role表需要手动创建角色
+1	ROLE_USER
+2	ROLE_ADMIN
