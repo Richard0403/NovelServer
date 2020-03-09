@@ -1,0 +1,6 @@
+repos:
+-   repo: https://github.com/zhixuehd/pre-commit-hooks
+    rev: master
+    hooks:
+    -   id: clang-format        # iOS 项目
+    -   id: google-java-format  # Android 项目
